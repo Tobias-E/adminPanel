@@ -7,6 +7,8 @@ export const GlobalStyle = createGlobalStyle`
     html{
         font-size: 16px;
         box-sizing: border-box;
+        scroll-behavior: smooth;
+        scroll-padding-top: 120px;
     }
 
     *, *:before, *:after {
